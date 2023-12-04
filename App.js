@@ -11,7 +11,7 @@ function App() {
   return (
       <NavigationContainer>
         <Stack.Navigator>
-            <Stack.Screen name="DETALLE" component={DetailScreen} />
+            <Stack.Screen name="LOGIN" component={DetailScreen} />
           <Stack.Screen name="INICIO" component={HomeScreen} />
         </Stack.Navigator>
       </NavigationContainer>
